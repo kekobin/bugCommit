@@ -1,0 +1,192 @@
+.signup{
+	float: right;
+	margin-right: 5px;
+	color: #ccc;
+}
+.signup:hover{
+	color:#c3c3c3;
+}
+
+.login_item{
+	margin-bottom: 15px;
+}
+.login_item>label{
+	width: 24%;
+	color:#fff;
+}
+.login_item>input{
+	display: inline-block; 
+	width: 75%;
+	height:44px;
+}
+.welcome, .quit{
+	margin-right: 50px;
+	line-height: 45px;
+	float: right;
+	margin-top: 7px;
+	text-decoration: none !important;
+}
+.quit{
+	margin-right:134px;
+}
+.jumbotron {
+	padding-top: 10px;
+}
+.c_project{
+	float: right;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+.thead_tr{
+	background: #ddedfe;
+}
+.table>thead>tr>th {
+ border-bottom: 0; 
+}
+.p_name{
+	display: inline-block; 
+	width: 60%;
+}
+tr>th,tr>td{
+	text-align: center;
+}
+#staffList img{
+	width: 20px;
+	cursor: pointer;
+	margin-left: 26px;
+}
+.description{
+	display: inline-block;
+	width: 60%;
+	min-height: 160px;
+}
+.read_show{
+	display: none;
+}
+.login_content{
+	background: url(/img/login_back.png) no-repeat;
+	background-size: 100% 100%;
+}
+.login_title{
+	color: #fff;
+	font: 18px/28px tahoma,arial,"Hiragino Sans GB","Microsoft Yahei",\5b8b\4f53;
+	font-weight: 500;
+	margin-top: -5px;
+}
+.signup_btn{
+	margin-top: 30px;
+}
+
+header#header{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	border-bottom: 2px solid rgba(0,0,0,0.08);
+	background-color: white;
+	background-clip: padding-box;
+	margin-bottom: -2px;
+	top: 0;
+	left: 0;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 1000000;
+}
+.main{
+	position: absolute;
+	top:60px;
+	bottom:0;
+	background-color: #f1f2f2;
+	width:100%;
+}
+.content{
+	position: relative;
+	width:1100px;
+	margin:30px auto  auto;
+	border: 1px solid transparent;
+	padding:10px;
+	background: #fff;
+	min-height: 520px;
+}
+.all{
+	margin-top: 10px;
+	font-size: 24px;
+}
+tbody th,tbody td{
+	font-weight: 100;
+}
+.h_x{
+	display: inline-block;
+}
+.s_name{
+	width:30%;
+	display: inline-block;
+	margin-right: 15px;
+}
+.add_staff>select{
+	width: 110px;
+	height: 32px;
+	font-size: 18px;
+	vertical-align: -2px;
+	margin-right: 15px;
+}
+.add_btn{
+	padding: 6px 24px;
+}
+.staffs{
+	min-height: 180px;
+	margin-top: 30px;
+	padding: 0px;
+}
+.staffs>li{
+	list-style: none;
+	background-color: #fcf8e3;
+	line-height: 40px;
+	font-size: 18px;
+}
+.btns{
+	position: absolute;
+	bottom:15px;
+	left:100px;
+	margin-top:20px;
+}
+.btns>button{
+	padding: 7px 40px;
+}
+.btns>button:first-child{
+	margin-right: 100px;
+}
+.dealer{
+	height: 32px;
+	font-size: 16px;
+}
+a.button-follow:hover {
+color: #bd202d;
+}
+.brand{
+	margin-left: 133px;
+	margin-top: -7px;
+}
+.nav-ul{
+	display: inline-block;
+}
+.nav-ul>li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+}
+.nav-ul>li>a{
+	font-size: 20px;
+	color:#333;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 10px;
+	display: block;
+}
+.nav-ul>li>a:hover{
+	color: #4183c4;
+	text-decoration: none;
+}

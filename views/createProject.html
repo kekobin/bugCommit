@@ -1,0 +1,45 @@
+<%include header.html%>
+
+    <input type="hidden" id="projectId" value="<%=((typeof _id) != 'undefined')?_id : 'null'%>">
+    <div class="main">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="content">
+        <div class="project_info">
+          <label class="all">项目信息</label>
+          <div class="project_detail">
+            <p> 
+              <h4 class="h_x">项目名称</h4>
+              <input id="pName" type="text" class="form-control p_name">
+            </p>
+            <p>
+              <h4 class="h_x">项目人员</h4>
+              <div class="project_staffs">
+                <div class="add_staff">
+                  <input type="text" class="form-control s_name" placeholder="请输入邮箱">
+                  <select>
+                    <option value="read/write">read-write</option>
+                    <option value="admin">admin</option>
+                  </select>
+                  <button type="button" class="btn btn-default add_btn" id="addStaff">添加</button>
+                </div>
+                <ul id="staffList" class="staffs">
+                  <li>
+                    <span class="s_name"><%=user%></span>
+                    <span class="s_role">owner</span>
+                  </li>
+                </ul>
+              </div>
+            </p>
+          </div>
+        </div>
+        <div class="btns">
+          <button type="button" class="btn btn-success" id="createProject">创建</button>
+          <button type="button" class="btn btn-info" id="cpBack">返回</button>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+    <script src="/js/createProject.js"></script>
+</body>
+</html>

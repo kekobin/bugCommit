@@ -1,0 +1,64 @@
+<%include header.html%>
+    <input type="hidden" id="bugId" value="<%=((typeof _id) != 'undefined')? _id : 'null'%>">
+    <input type="hidden" id="pid" value="<%=((typeof pid) != 'undefined')? pid : 'null'%>">
+    <div class="main">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="content">
+        <div class="project_info">
+          <label class="all">Bug信息</label>
+          <div class="project_detail">
+            <p> 
+              <label>项目名称:<span id="pName"><%=pname%></span></label>
+            </p>
+            <p>
+              <label>标题</label>
+              <input id="bugName" type="text" class="form-control p_name">
+            </p>
+            <p class="read_show">
+              <label>时间</label>
+              <span id="time"></span>
+            </p>
+            <p class="read_show">
+              <label>状态</label>
+              <select id="status">
+                <option class="nofixed">未修复</option>
+                <option class="fixed">已修复</option>
+              </select>
+            </p>
+            <p id="level">
+              <label>优先级</label>
+              <span class="c_show">
+                <input type="radio" name="priority" value="1">
+                低
+                <input type="radio" name="priority" value="2">
+                中
+                <input type="radio" name="priority" value="3">
+                高
+                <input type="radio" name="priority" value="4">
+                紧急
+                <input type="radio" name="priority" value="5">
+                严重
+              </span>
+              <span class="read_show"></span>
+            </p>
+            <p>
+              <label>处理人</label>
+              <select name="dealer" id="dealer" class="dealer"></select>
+            </p>
+            <p>
+              <label>描述</label>
+              <textarea id="description" class="description form-control"></textarea>
+            </p>
+          </div>
+        </div>
+        <div class="btns">
+          <button type="button" class="btn btn-success" id="createBug">提交</button>
+          <button type="button" class="btn btn-info" id="cpBack">返回</button>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+    <script src="/js/createBug.js"></script>
+</body>
+</html>

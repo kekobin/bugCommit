@@ -1,0 +1,30 @@
+<%include header.html%>
+    <div class="main">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="content">
+        <div class="project_info">
+          <label class="all">所有项目</label>
+          <a type="button" class="btn btn-success c_project" href="/project">创建项目</a>
+          <div class="projects">
+            <table class="table table-striped">
+              <thead>
+                <tr class="thead_tr">
+                  <th>项目名称</th>
+                  <th>加入日期</th>
+                  <th>是否创建者</th>
+                  <th>是否管理员</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody id="projectLists">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+    <script src="/js/desktop.js"></script>
+</body>
+</html>
